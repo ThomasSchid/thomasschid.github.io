@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico&subset=cyrillic');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: fixed url(../img/background.jpg);
+    background-size: cover;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header{
+    display: flex;
+    text-align: center;
+    background-attachment: fixed;
+}
+.logo a{
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    vertical-align: middle;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 13%, rgb(0, 59, 122) 66%, rgb(108, 156, 250), rgb(80, 127, 255) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 98, 255);
+    text-decoration: none;
+}
+.logo a:hover{
+    background: linear-gradient(0deg, rgb(0, 0, 0) 13%, rgb(16, 99, 187) 66%, rgb(87, 188, 219), rgb(80, 214, 255) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 98, 255);
+}
+.menu{
+    display: flex;
+    margin-top: 53px;
+    margin-left: 150px;
+}
+.menu li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+ul a{
+    padding: 0;
+    height: 40px;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+ul a:hover{
+    border-bottom: 4px solid rgba(0, 0, 0, 0.664);
+    background: linear-gradient(180deg, rgb(15, 128, 221) 33%, rgb(0, 0, 0) 66%, rgb(0, 0, 0)  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.phone{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 50px;
+    vertical-align: middle;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 33%, rgb(0, 0, 0) 66%, rgb(81, 139, 255)  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.phone:hover{
+    background: linear-gradient(180deg, rgb(15, 128, 221) 33%, rgb(0, 0, 0) 66%, rgb(0, 0, 0)  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+img.phone_logo{
+    width: 30px;
+}
+section{
+    margin-top:50px;
+}
+section h2{
+    background: linear-gradient(0deg, rgb(0, 0, 0) 13%, rgb(0, 72, 150) 66%, rgb(0, 152, 199) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 98, 255);
+}
+div.discount{
+    display: flex;
+}
+.meal{
+    width: 300px;
+    margin-left: 15px;
+}
+div.meal_img{
+    overflow: hidden;
+    width: 300px;
+    height: 180px;
+}
+div.meal_img img{
+    width: 300px;
+    height: 180px;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+div.meal:hover img{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+div.meal:hover div{
+    background: rgba(255, 255, 255, 0.712);
+}
+div.meal_txt a{
+    text-decoration:none; 
+    color:black;
+}
+span.meal_name{
+    font-size: 30px;
+}
+
+
+footer{
+    text-align: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+footer a{
+    text-decoration:none;
+    background: linear-gradient(0deg, rgb(40, 106, 136) 33%, rgb(23, 125, 173) 66%, rgb(134, 173, 252)  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 0, 0);
+}
+footer a:hover{
+    background: linear-gradient(0deg, rgb(70, 167, 212) 33%, rgb(77, 185, 235) 66%, rgb(197, 250, 243)  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px -2px 30px rgba(1, 204, 255, 0.418);
+}
