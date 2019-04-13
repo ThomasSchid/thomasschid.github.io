@@ -1,0 +1,342 @@
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-moz-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-track-piece{
+    background-color: #55555527;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #555555;
+}
+
+.body{
+
+}
+.body_background-color{
+    background-color: #eaeaea;
+}
+.main-container{
+    width: 1120px;
+    margin: 0 auto;
+}
+.main-container__elements_shadow{
+    box-shadow: 0 0 10px rgba(78, 78, 78, 0.466);
+}
+        /*logo-start*/
+
+.head-logo{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 119px;
+    margin-top:250px;
+}
+.logo{
+    background: url(../img/logo_big.png) no-repeat ;
+    background-size: cover;
+
+}
+.logo_size_big{
+    width: 382px;
+    height: 159px;
+}
+.logo_size_medium{
+    width: 252px;
+    height: 105px;
+}
+.logo_size_small{
+    width: 87px;
+    height: 36px;
+}
+        /*logo-end*/
+
+.c-nav{
+    width: 1120px;
+    height: 133px;
+    z-index:15;
+    position:relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.c-nav__logo{
+    margin-left: 94px;
+}
+
+.c-nav_style{
+    background-color: #f8f8f8;
+}
+.menu{
+    width: 555px;
+    height: 14px;
+    padding: 0;
+    display: flex;
+
+}
+.c-nav__menu_position{
+    margin-left:92px;
+}
+
+.menu__item{
+    display: block;
+    margin-right: 18px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 38px;
+}
+.menu__link{
+    text-decoration: none;
+    color: #000000;
+}
+.menu__link:hover{
+    padding: 2px 0;
+    height: 38px;
+}
+.menu__item:hover >.dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    display: none;
+    margin-top: 18px;
+    margin-left: -30px;
+    width: 151px;
+    box-shadow: 1px 3px 7px rgba(11, 12, 12, 0.14);
+    background-color: rgba(255, 255, 255, 0.533);
+    position:absolute;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    list-style-type: none;
+}
+.dropdown-menu__item{
+}
+.dropdown-menu__item:first-of-type{
+    margin-top: 14px;
+}
+.dropdown-menu__item:last-of-type{
+    margin-bottom: 16px;
+}
+.dropdown-menu__link{
+    color: #b7b7b7;
+    text-decoration: none;
+    line-height: 32px;
+}
+.dropdown-menu__link:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+.c-nav__search-input{
+    width: 140px;
+    height: 14px;
+    margin-left: 50px;
+    border: 1px solid #c2c2c2;
+    font-family: FontAwesome,'Josefin Sans', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 8px 0px 8px 30px;
+}
+.c-nav__search-input:{
+    width: 150px;
+}
+.c-slider{
+    width: 1119px;
+    height: 438px;
+    z-index:15;
+    overflow: auto;
+}
+.c-slider_background-image{
+    background: #f7f7f7 url(../img/c-slider_background-image.png)
+}
+.c-slider_position{
+    margin-top: 86px;
+}
+.c-slider__right-content{
+    margin-left:90px;
+}
+.c-slider__logo{
+    margin-top:49px;
+}
+.c-slider__title{
+    margin-top:35px;
+    margin-bottom: 28px;
+    color: #921026;
+    font-family: "Playfair Display";
+    font-size: 24px;
+}
+.c-slider__text{
+    width: 312px;
+    height: 90px;
+    margin:0;
+}
+.main-text{
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+}
+.c-slider__button{
+    margin-top:27px;
+    width: 110px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    display: flex;
+}
+.c-slider__button:hover,.big-container__button:hover{
+    background-color: #eaeaea;
+}
+.c-slider__link{
+    color: #000000;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    text-decoration: none;
+    margin: 9px 13px;
+}
+.c-preview-container{
+    width: 1120px;
+    height: 373px;
+    margin-top: 85px;
+    display: flex;
+    background: white;
+}
+.c-preview-container__link{
+    text-decoration: none;
+}
+.preview-content{
+    width: 313px;
+    margin-right: 42px;
+    margin-top:40px;
+}
+.preview-content_margin-left{
+    margin-left: 53px;
+}
+.preview-content__img{
+    width: 313px;
+    height: 208px;
+    margin-bottom: 15px;
+}
+.preview-content__title{
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+.preview-content__stats{
+    color: #555555;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+.preview-content:hover {
+    background-color: #eaeaea;
+}
+.big-container{
+    width: 1120px;
+    height: 438px;
+    display: flex;
+    margin:0;
+    padding: 0;
+    background: #fff;
+}
+.big-container_position{
+    margin-top: 87px;
+}
+.big-container__img{
+    width: 520px;
+    height: 438px;
+    background-image: url(../img/big-container__img-1.png);
+}
+.big-container__pic-icon{
+    width: 49px;
+    height: 62px;
+    margin-left:auto;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color:#fff;
+    font-size: 26px;
+}
+.big-container__right-block{
+    margin-left: 36px;
+}
+.big-container__title{
+    color: #055555;
+    font-family: "Playfair Display - Black";
+    font-size: 32px;
+    
+}
+.big-container__info{
+    color: #555555;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    float: left;
+}
+.big-container__button{
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    float: right;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.big-container__text{
+    width: 495px;
+    height: 265px;
+    margin-top: 34px;
+    margin-left: 0;
+    float: left;
+    overflow: auto;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    
+}
+.c-footer{
+    margin-top:150px;
+    width: 1120px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 3px 7px rgba(11, 12, 12, 0.14);
+    background-color: #000000;
+    opacity: 0.8;
+    color: rgba(254, 254, 254, 0.5);
+    font-family: "Josefin Sans";
+    font-size: 12px;
+}
+.c-footer__logo{
+    background-image: url(../img/logo_white.png);
+    margin-left:85px;
+    margin-right: 112px;
+}
+.menu__link_color{
+    color: rgba(254, 254, 254, 0.5);
+}
+.copyright{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    margin-top: 30px;
+    width: 247px;
+    height: 41px;
+}
+.copyright__text{
+
+}
+.copyright__social-networks{
+    font-size: 16px;
+}
+.copyright__link{
+    color: #555555;
+}
